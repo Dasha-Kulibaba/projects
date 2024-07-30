@@ -1,0 +1,175 @@
+.add {
+	margin-bottom: 12px;
+}
+
+
+.add__title {
+	color: #04506B;
+	font-size: 48px;
+	margin-bottom: 46px;
+}
+
+
+.add__form {
+	display: flex;
+	gap: 51px;
+}
+
+.add__image {
+	display: block;
+	width: 180px;
+	height: 240px;
+	border: 3px dashed #04506B;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#previewImage {
+	width: 180px;
+	height: 240px;
+	object-fit: cover;
+}
+
+.book_file {
+	display: block;
+	width: 258px;
+	height: 42px;
+	border: 2px dashed #04506B;
+	cursor: pointer;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+	padding: 7px;
+	margin-top: 46px;
+
+}
+
+
+
+.add__image p {
+	margin-top: 40%;
+}
+
+.book__item {
+	display: flex;
+	flex-direction: column;
+	margin-top: 12px;
+}
+
+.book__item label {
+	padding-left: 8px;
+}
+
+.book__item input,
+.book__item select,
+.book__item textarea {
+	width: 363px;
+	border-radius: 10px;
+	margin-top: 8px;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #1E73B2;
+}
+
+.book__item select {
+	width: 182px;
+	margin-bottom: 12px;
+}
+
+.genreselect {
+	display: flex;
+	max-width: 400px;
+	gap: 12px;
+	flex-wrap: wrap;
+}
+
+.genresel {
+	color: #04506B;
+	display: inline-flex;
+	gap: 5px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 5px 8px;
+	background-color: #ADC3F4;
+
+}
+
+.genresel img {
+	cursor: pointer;
+}
+
+.error {
+	outline: 2px solid #C72711;
+}
+
+.error-message {
+	font-weight: 700;
+	margin-top: 4px;
+	font-size: 12px;
+	color: #C72711;
+}
+
+button {
+	font-weight: 600;
+	margin-top: 16px;
+	font-size: 30px;
+	padding: 10px;
+	color: #04506B;
+	text-align: center;
+	border-radius: 10px;
+	padding: 6px 10px;
+	background-color: #4DE99E;
+}
+
+
+/* -------------- */
+.book__tittle {
+	color: #015172;
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 28px;
+}
+
+.book__cover img {
+	display: block;
+	width: 298px;
+	height: 459px;
+	object-fit: cover;
+}
+
+.book__genres {
+	color: #698090;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.author__name,
+.year {
+	color: #1E73B2;
+	font-size: 28px;
+}
+
+.book__descr {
+	color: #144D64;
+	font-size: 24px;
+}
+
+.book__block {
+	display: flex;
+	gap: 27px;
+}
+
+.book__info>*:not(:last-child) {
+	margin-bottom: 24px;
+}
+
+
+.book__author img {
+	display: block;
+	width: 34px;
+	height: 34px;
+	object-fit: cover;
+	border-radius: 50%;
+}
